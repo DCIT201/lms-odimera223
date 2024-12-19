@@ -50,7 +50,6 @@ public class Book {
     isBorrowed = !isBorrowed;
 }
 
-
     //Method to return a book
     public boolean returnBook() {
         if (!isBorrowed) {
